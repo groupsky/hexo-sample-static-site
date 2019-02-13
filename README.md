@@ -10,11 +10,20 @@ The website is created using [Hexo](https://hexo.io/).
 $ hexo server
 ```
 
-**Generate static files**
+**Deploy**
 
 ``` bash
-$ hexo generate
+$ yarn deploy
 ```
+or
+
+``` bash
+$ npm run deploy
+```
+
+Troubleshooting:
+If the deploy throws an error that it doesn't detect your GitHub username and email then you can add them to deploy section of _config.yml. You may need to delete .deploy_git/ and run the deploy command again.
+
 
 ## More information about Hexo
 
