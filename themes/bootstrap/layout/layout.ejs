@@ -1,10 +1,19 @@
 <!doctype html>
 <html<% if ( config.language ) { %> lang="<%= config.language %>"<% } %>>
 <head>
+
     <%- partial('_partial/_head') %>
+
 </head>
 <body>
-<%- partial('_partial/_page') %>
-<%- partial('_partial/_foot') %>
+
+    <%- partial('_partial/_header') %>
+
+    <main role="main">
+        <%- body %>
+    </main>
+
+    <%- partial('_partial/_footer') %>
+
 </body>
 </html>

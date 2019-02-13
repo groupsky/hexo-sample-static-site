@@ -3,23 +3,23 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: My DSHS
-subtitle: My dangerous static hexo site
+title: Sophia
+subtitle: Smart contracts language
 description:
 keywords:
-author: John Doe
+author: Sophia lang team
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://groupsky.github.io/hexo-sample-static-site/
-root: /hexo-sample-static-site/
+url: https://groupsky.github.io/sophia-lang-website/
+root: /sophia-lang-website/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
 # Directory
-source_dir: source
+source_dir: pages
 public_dir: public
 tag_dir: tags
 archive_dir: archives
@@ -79,7 +79,5 @@ theme: bootstrap
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:groupsky/hexo-sample-static-site.git
+  repo: git@github.com:groupsky/sophia-lang-website.git
   branch: gh-pages
-
-
