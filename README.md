@@ -1,5 +1,7 @@
 # Sophia language website
 
+[![Build Status](https://travis-ci.org/groupsky/sophia-lang-website.svg?branch=master)](https://travis-ci.org/groupsky/sophia-lang-website)
+
 The website is created using [Hexo](https://hexo.io/).
 
 ## Quick Start
