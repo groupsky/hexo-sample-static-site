@@ -11,5 +11,15 @@ h1, h1, h3, h4, h5, h6 {
 	font-family: 'Roboto', sans-serif;
 }
 
+
+
+// Base
+.logo {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+
+
 // Partials
 @import "top-nav";
+@import "footer";
