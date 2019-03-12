@@ -1,7 +1,14 @@
 {
-  "name": "hexo-site",
+  "name": "sophia-lang-website",
   "version": "0.0.1",
   "private": true,
+  "scripts": {
+      "clean": "hexo clean",
+      "build": "hexo generate",
+      "start": "hexo server",
+      "predeploy": "hexo clean",
+      "deploy": "hexo deploy"
+  },
   "hexo": {
     "version": "3.8.0"
   },
@@ -18,12 +25,5 @@
     "hexo-renderer-scss": "^1.2.0",
     "hexo-renderer-stylus": "^0.3.3",
     "hexo-server": "^0.3.1"
-  },
-  "scripts": {
-    "clean": "hexo clean",
-    "build": "hexo generate",
-    "start": "hexo server",
-    "predeploy": "hexo clean",
-    "deploy": "hexo deploy"
   }
 }

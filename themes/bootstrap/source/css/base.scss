@@ -1,0 +1,12 @@
+// Bootstrap
+@import "variables";
+@import "utils";
+
+// Cusotmize Bootstrap
+.jumbotron {
+	@extend .bg-normal;
+}
+
+
+// Partials
+@import "top-nav";
